@@ -1,17 +1,25 @@
 package ictcg.com.model;
 
+import java.time.LocalTime;
+import java.util.Date;
+
 import org.springframework.data.annotation.Id;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-  @Getter @Setter @EqualsAndHashCode
+   @EqualsAndHashCode
+   @Getter
+   @Setter
+   
+   @NoArgsConstructor
 public class Societes {
 	
-	@Id
-	private String  idSociete ;
-	private String  nameSociete ;
+	@Id	
+	private String  idSociete ;	
+	private String  nameSociete ;	
 	private double  marketValueBeurs ;
 	
 	
