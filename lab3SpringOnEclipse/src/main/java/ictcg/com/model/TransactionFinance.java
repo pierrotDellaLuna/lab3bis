@@ -24,8 +24,8 @@ public class TransactionFinance {
 	@Id
 	@JsonIgnore
 	private String idTransaction;
-	@JsonFormat(pattern = "HH:mm")	
-	private LocalTime time;
+	//@JsonFormat(pattern = "HH:mm")	
+	private String time;
 	@JsonIgnore		
 	private double price;
 	@JsonFormat(pattern = "dd/MM/yyyy")		

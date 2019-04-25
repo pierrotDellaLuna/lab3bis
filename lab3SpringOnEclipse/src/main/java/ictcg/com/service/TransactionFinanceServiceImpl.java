@@ -22,8 +22,7 @@ public class TransactionFinanceServiceImpl implements TransactionFinanceService 
 
 	@Override
 	public TransactionFinance getFirstTransaction() {
-		TransactionFinance transac = new TransactionFinance() ;
-		transac.setTime(LocalTime.now());
+		TransactionFinance transac = new TransactionFinance() ;		
 		transac.setDate(new Date());
 		return transac;
 	}
